@@ -19,6 +19,17 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/org.codehaus.groovy/groovy-all/2.0.5/jar/caef1126e5358bf1327e8b4381a827da9accbb47/groovy-all-2.0.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/org.codehaus.groovy/groovy-all/2.0.5/source/77c137f40bebfc3d9c49f6bf819840b613f60d18/groovy-all-2.0.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/org.springframework/spring-core/3.2.3.RELEASE/jar/accdd65db57e79e49f2af037bb76f5a55a580f00/spring-core-3.2.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
@@ -162,6 +173,50 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/org.slf4j/slf4j-api/1.6.2/jar/8619e95939167fb37245b5670135e4feb0ec7d50/slf4j-api-1.6.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/org.slf4j/slf4j-api/1.6.2/source/6b5f6572792e2192ecf714ea12ae894b0fbcf750/slf4j-api-1.6.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/org.slf4j/slf4j-log4j12/1.6.2/jar/7dd950c7eeb3004a91720ba8782aa0ded9037110/slf4j-log4j12-1.6.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/org.slf4j/slf4j-log4j12/1.6.2/source/11c3fc1eac3b22742ad08899fd3ef4f4151592ba/slf4j-log4j12-1.6.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/log4j/log4j/1.2.16/bundle/7999a63bfccbc7c247a9aea10d83d4272bd492c6/log4j-1.2.16.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/log4j/log4j/1.2.16/source/bf945d1dc995be7fe64923625f842fbb6bf443be/log4j-1.2.16-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/log4j/apache-log4j-extras/1.1/bundle/1e4b290f5c9ce5ea3a1a7352496c9c9d2a894800/apache-log4j-extras-1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/log4j/apache-log4j-extras/1.1/source/1dfff3faa31b6b0a57ab3756882845a3ecad0934/apache-log4j-extras-1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
@@ -258,6 +313,15 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/log4j-rolling-appender-20130130-1840.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -266,6 +330,17 @@
         <JAVADOC/>
         <SOURCES>
           <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/junit/junit/4.11/source/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/org.springframework/spring-test/3.0.2.RELEASE/jar/4c2fb90c10a83aceb20dc7583776d436165bb9ae/spring-test-3.0.2.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/kevin.twery/.gradle/caches/artifacts-24/filestore/org.springframework/spring-test/3.0.2.RELEASE/source/2e19ff8bd75b83f52a23aee302556abed35fcf29/spring-test-3.0.2.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
