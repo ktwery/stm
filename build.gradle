@@ -1,21 +1,14 @@
-task wrapper(type: Wrapper){
-    gradleVersion = '1.6'
-}
+allprojects {
 
-apply plugin: 'java'
-apply plugin: 'idea'
+    task wrapper(type: Wrapper){
+        gradleVersion = '1.6'
+    }
 
-version = 1.0
+    apply plugin: 'java'
+    apply plugin: 'idea'
 
-repositories {
-    mavenCentral()
-}
-
-subprojects {
     version = 1.0
 
-    apply plugin: 'idea'
-    apply plugin: 'java'
     repositories {
         mavenCentral()
     }
@@ -23,6 +16,7 @@ subprojects {
         // spring dependencies
         def springframework_version = '3.2.3.RELEASE',
             springsecurity_version = '3.1.3.RELEASE',
+            springtest_version = '3.1.1.RELEASE',
             springdata_version =  '1.0.0.RELEASE';
 
         compile "org.springframework:spring-core:$springframework_version"
@@ -41,19 +35,29 @@ subprojects {
         compile "org.aspectj:aspectjrt:1.6.11"
         compile "org.aspectj:aspectjweaver:1.6.11"
 
+        // jackson
+        def jackson_version = '1.9.2'
+        compile "org.codehaus.jackson:jackson-core-asl:$jackson_version"
+        compile "org.codehaus.jackson:jackson-mapper-asl:$jackson_version"
+
         sourceSets {
             main {
                 java {
-                    srcDir 'src/java'
+                    srcDir 'src/main/java'
                 }
                 resources {
-                    srcDir 'src/resources'
+                    srcDir 'src/main/resources'
+                }
+            }
+            test{
+                java{
+                    srcDir 'src/main/tests'
                 }
             }
         }
 
-        testCompile group: 'junit', name: 'junit', version: '4.+'
-        testCompile "org.springframework:spring-test:$springVersion"
+        testCompile group: 'junit', name: 'junit', version: '4.10'
+        testCompile "org.springframework:spring-test:$springtest_version"
     }
 }
 

@@ -1,8 +1,8 @@
 package com.stm.domain;
 
 public class Filter {
-    private String color;
     private int filterID;
+    private String color;
     private boolean isActive;
     private String name;
     private int rank;

@@ -41,7 +41,7 @@ Test.prototype = {
 			var li = document.createElement("li");
 				li.appendChild( b );
 				li.className = "running";
-				li.id = this.id = "test-output" + testId++;
+				li.id = this.id = "com.stm.test-output" + testId++;
 			tests.appendChild( li );
 		}
 	},
@@ -75,7 +75,7 @@ Test.prototype = {
 			name: this.testName
 		} );
 
-		// allow utility functions to access the current test environment
+		// allow utility functions to access the current com.stm.test environment
 		// TODO why??
 		QUnit.current_testEnvironment = this.testEnvironment;
 
@@ -101,9 +101,9 @@ Test.prototype = {
 		try {
 			this.callback.call(this.testEnvironment);
 		} catch(e) {
-			fail("Test " + this.testName + " died, exception and test follows", e, this.callback);
-			QUnit.ok( false, "Died on test #" + (this.assertions.length + 1) + ": " + e.message + " - " + QUnit.jsDump.parse(e) );
-			// else next test will carry the responsibility
+			fail("Test " + this.testName + " died, exception and com.stm.test follows", e, this.callback);
+			QUnit.ok( false, "Died on com.stm.test #" + (this.assertions.length + 1) + ": " + e.message + " - " + QUnit.jsDump.parse(e) );
+			// else next com.stm.test will carry the responsibility
 			saveGlobal();
 
 			// Restart the tests if they're blocking
@@ -238,7 +238,7 @@ Test.prototype = {
 				test.finish();
 			});
 		}
-		// defer when previous test run passed, if storage is available
+		// defer when previous com.stm.test run passed, if storage is available
 		var bad = QUnit.config.reorder && defined.sessionStorage && +sessionStorage.getItem("qunit-" + this.module + "-" + this.testName);
 		if (bad) {
 			run();
@@ -251,7 +251,7 @@ Test.prototype = {
 
 var QUnit = {
 
-	// call on start of module test to prepend name to all tests
+	// call on start of module com.stm.test to prepend name to all tests
 	module: function(name, testEnvironment) {
 		config.currentModule = name;
 		config.currentModuleTestEnviroment = testEnvironment;
@@ -267,7 +267,7 @@ var QUnit = {
 	},
 
 	test: function(testName, expected, callback, async) {
-		var name = '<span class="test-name">' + testName + '</span>', testEnvironmentArg;
+		var name = '<span class="com.stm.test-name">' + testName + '</span>', testEnvironmentArg;
 
 		if ( arguments.length === 2 ) {
 			callback = expected;
@@ -294,7 +294,7 @@ var QUnit = {
 	},
 
 	/**
-	 * Specify the number of expected assertions to gurantee that failed test (no assertions are run at all) don't slip through.
+	 * Specify the number of expected assertions to gurantee that failed com.stm.test (no assertions are run at all) don't slip through.
 	 */
 	expect: function(asserts) {
 		config.current.expected = asserts;
@@ -468,7 +468,7 @@ var config = {
 		for ( var i = 0; i < length; i++ ) {
 			current = params[ i ].split( "=" );
 			current[ 0 ] = decodeURIComponent( current[ 0 ] );
-			// allow just a key to turn on a flag, e.g., test.html?noglobals
+			// allow just a key to turn on a flag, e.g., com.stm.test.html?noglobals
 			current[ 1 ] = current[ 1 ] ? decodeURIComponent( current[ 1 ] ) : true;
 			urlParams[ current[ 0 ] ] = current[ 1 ];
 		}
@@ -536,7 +536,7 @@ extend(QUnit, {
 	},
 
 	/**
-	 * Resets the test setup. Useful for tests that modify the DOM.
+	 * Resets the com.stm.test setup. Useful for tests that modify the DOM.
 	 *
 	 * If jQuery is available, uses jQuery's html(), otherwise just innerHTML.
 	 */
@@ -619,19 +619,19 @@ extend(QUnit, {
 		};
 
 		message = escapeHtml(message) || (result ? "okay" : "failed");
-		message = '<span class="test-message">' + message + "</span>";
+		message = '<span class="com.stm.test-message">' + message + "</span>";
 		expected = escapeHtml(QUnit.jsDump.parse(expected));
 		actual = escapeHtml(QUnit.jsDump.parse(actual));
-		var output = message + '<table><tr class="test-expected"><th>Expected: </th><td><pre>' + expected + '</pre></td></tr>';
+		var output = message + '<table><tr class="com.stm.test-expected"><th>Expected: </th><td><pre>' + expected + '</pre></td></tr>';
 		if (actual != expected) {
-			output += '<tr class="test-actual"><th>Result: </th><td><pre>' + actual + '</pre></td></tr>';
-			output += '<tr class="test-diff"><th>Diff: </th><td><pre>' + QUnit.diff(expected, actual) +'</pre></td></tr>';
+			output += '<tr class="com.stm.test-actual"><th>Result: </th><td><pre>' + actual + '</pre></td></tr>';
+			output += '<tr class="com.stm.test-diff"><th>Diff: </th><td><pre>' + QUnit.diff(expected, actual) +'</pre></td></tr>';
 		}
 		if (!result) {
 			var source = sourceFromStacktrace();
 			if (source) {
 				details.source = source;
-				output += '<tr class="test-source"><th>Source: </th><td><pre>' + escapeHtml(source) + '</pre></td></tr>';
+				output += '<tr class="com.stm.test-source"><th>Source: </th><td><pre>' + escapeHtml(source) + '</pre></td></tr>';
 			}
 		}
 		output += "</table>";
@@ -660,7 +660,7 @@ extend(QUnit, {
 	addEvent: addEvent,
 
 	// Logging callbacks; all receive a single argument with the listed properties
-	// run test/logs.html for any related changes
+	// run com.stm.test/logs.html for any related changes
 	begin: function() {},
 	// done: { failed, passed, total, runtime }
 	done: function() {},

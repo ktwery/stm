@@ -2,7 +2,7 @@
 // adapted from Modernizr
 
 QUnit.begin = function () {
-  console.log("Starting test suite")
+  console.log("Starting com.stm.test suite")
   console.log("================================================\n")
 }
 

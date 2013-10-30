@@ -42,7 +42,7 @@ build:
 # RUN JSHINT & QUNIT TESTS IN PHANTOMJS
 #
 
-test:
+com.stm.test:
 	./node_modules/.bin/jshint js/*.js --config js/.jshintrc
 	./node_modules/.bin/jshint js/tests/unit/*.js --config js/.jshintrc
 	node js/tests/server.js &

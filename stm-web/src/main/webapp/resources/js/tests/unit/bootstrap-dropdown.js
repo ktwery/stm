@@ -68,7 +68,7 @@ $(function () {
         ok(dropdown.parent('.dropdown').hasClass('open'), 'open class added on click')
       })
 
-      test("should test if element has a # before assuming it's a selector", function () {
+      test("should com.stm.test if element has a # before assuming it's a selector", function () {
         var dropdownHTML = '<ul class="tabs">'
           + '<li class="dropdown">'
           + '<a href="/foo/" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>'

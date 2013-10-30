@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output/>
-    <content url="file://$MODULE_DIR$/">
-      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
-      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/stm-controller/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/bower_components" isTestSource="false" />
     </content>
-    <orderEntry type="sourceFolder" forTests="false"/>
-    <orderEntry type="inheritedJdk"/>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="library" name="javax.persistence:persistence-api:1.0.2" level="project" />
+    <orderEntry type="library" name="spring-3.2.4" level="project" />
+    <orderEntry type="module" module-name="stm-service" />
+    <orderEntry type="library" name="com.sun.jersey.samples:groovy:1.6" level="project" />
   </component>
 </module>
+
