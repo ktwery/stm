@@ -44,11 +44,6 @@
         </div>
     </fieldset>
 </div>
-<div></div>
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="resources/js/lib/bootstrap.min.js"></script>
-<script data-main="resources/js/requireConfig" src="resources/js/lib/require-lib.js"></script>
-<script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.4/underscore-min.js"></script>
-<script src="http://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"></script>
+<script data-main="resources/js/requireConfig" src="resources/js/lib/require.js"></script>
 </body>
 </html>
