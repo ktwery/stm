@@ -11,6 +11,7 @@
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml</file>
           <file>file://$MODULE_DIR$/src/main/webapp/resources/springConfig/application-context.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/springConfig/controllers.xml</file>
+          <file>file://$MODULE_DIR$/../stm-service/src/main/resources/springConfig/commonServices.xml</file>
         </fileset>
       </configuration>
     </facet>

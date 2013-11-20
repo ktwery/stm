@@ -323,6 +323,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="com.sun.jersey.samples:groovy:1.6" level="project" />
   </component>
 </module>
 

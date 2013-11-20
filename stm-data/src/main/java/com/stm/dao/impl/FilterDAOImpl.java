@@ -18,7 +18,8 @@ public class FilterDAOImpl implements FilterDAO {
     public FilterDAOImpl(){
     }
     public List<Filter> getAllFilters() {
-        return template.query("SELECT * FROM FILTER", new FilterRowMapper());
+        //TODO cache this data somehow?
+        return template.query("SELECT * FROM FILTERS", new FilterRowMapper());
     }
 
     @Autowired
