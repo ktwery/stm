@@ -11,6 +11,8 @@ import java.util.List;
 
 @Service
 public class FilterService {
+    @Qualifier("filterDAOImpl")
+    @Autowired
     private FilterDAOImpl filterDAO = new FilterDAOImpl();
     public ArrayList<Filter> activeFilters;
 

@@ -8,8 +8,8 @@ define(['jquery','underscore','backbone',"model/FilterModel"],
                 _.extend(this, Backbone.Events);
             },
             getDisplayModels:function () {
-                return this.map(function (claim) {
-                    return claim.getDisplayModel();
+                return this.map(function (filter) {
+                    return filter.getDisplayModel();
                 });
             }
         });

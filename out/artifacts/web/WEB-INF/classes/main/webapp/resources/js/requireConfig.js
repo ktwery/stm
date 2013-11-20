@@ -29,10 +29,12 @@ require.config({
     }
 
 });
-define(["model/FilterModel","collection/FilterCollection","view/FiltersView"],
-    function (FilterModel,FilterCollection,FilterView) {
+define(["model/FilterModel","collection/FilterCollection","view/FiltersView","view/TasksView"],
+    function (FilterModel,FilterCollection,FilterView,TasksView) {
         console.log("gotHere%%%");
 
         var filterView = new FilterView();
         filterView.fetchCollection();
+        var taskView = new TasksView();
+        taskView.fetchCollection();
     });

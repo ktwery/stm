@@ -1,7 +1,7 @@
 package com.stm.mpa.web.controller;
 
 import com.stm.services.FilterService;
-import org.codehaus.jackson.JsonGenerator;
+import com.stm.services.TaskService;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -11,18 +11,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.IOException;
-
 @Controller
-public class FilterController {
-    @Qualifier("filterService")
+public class TaskController {
+    @Qualifier("taskService")
     @Autowired
-    private FilterService filterService;
+    private TaskService taskService;
 
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    @RequestMapping(value = {"/filters"}, method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = {"/tasks"}, method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
-    public String getAllActiveFilters() throws IOException {
-        return objectMapper.writeValueAsString(this.filterService.getAllActiveFilters());
+    public String getAllActiveTasks() throws IOException {
+        return objectMapper.writeValueAsString(this.taskService.getAllActiveTasks());
     }
 }

@@ -22,7 +22,7 @@
 
     <!--- setter autowired -->
     <bean id="filterDao" class="com.stm.dao.impl.FilterDAOImpl">
-        <property name="dataSource" ref="dataSource"/>
+         <property name="dataSource" ref="dataSource"/>
     </bean>
     <!--- setter autowired -->
     <bean id="taskDao" class="com.stm.dao.impl.TaskDAOImpl">

@@ -3,11 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <import resource="data.xml"/>
+    <bean class="com.stm.services.FilterService" id="filterService">
+        <property name="filterDAO" ref="filterDao"/>
+    </bean>
     <bean class="com.stm.services.TaskService" id="taskService">
         <property name="taskDAO" ref="taskDao"/>
         <property name="filterService" ref="filterService"/>
     </bean>
-    <bean class="com.stm.services.FilterService" id="filterService">
-        <property name="filterDAO" ref="filterDao"/>
-    </bean>
+
 </beans>

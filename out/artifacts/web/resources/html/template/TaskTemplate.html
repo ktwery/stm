@@ -1,0 +1,27 @@
+<button type="button" data-loading-text="Loading..." id="taskButton" class="btn btn-primary">
+    Add a New Task
+</button>
+<ol class="tasks">
+    {{#tasks}}
+    <li >
+        <fieldset class="task">
+            <i class="icon-move pull-right"></i>
+            <legend class="title">{{attributes.title}}</legend>
+
+                <div class="btn-group">
+                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                        Action
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- dropdown menu links -->
+                    </ul>
+                </div>
+                <div class="taskNotes inline">
+                    <textarea>{{attributes.content}}</textarea>
+                </div>
+
+        </fieldset>
+    </li>
+    {{/tasks}}
+</ol>
