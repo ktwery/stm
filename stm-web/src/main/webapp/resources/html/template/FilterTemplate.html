@@ -1,16 +1,21 @@
 <ol class="filters inline">
     {{#filters}}
     <li >
-        <div class="input-append color" data-color="rgb(255, 146, 180)" data-color-format="rgb"
-             xmlns="http://www.w3.org/1999/html">
-            <span class="add-on"><i style="background-color: rgb(255, 146, 180)"></i></span>
-        </div>
-        <label class="checkbox inline">
-            <input type="checkbox" value="option1" id="inlineCheckbox1"> {{attributes.name}}
-        </label>
+        <input type='text' class="basic" />
+        <button type="button" class="btn" data-toggle="button">{{attributes.name}}</button>
     </li>
     {{/filters}}
 </ol>
-<button type="button" data-loading-text="Loading..." id="statusButton" class="btn btn-primary pull-right">
-    Add a New Status
-</button>
+<!--<button type="button" data-loading-text="Loading..." id="statusButton" class="btn btn-primary pull-right">-->
+    <!--Add a New Filter-->
+<!--</button>-->
+<div class="btn-group pull-right" id="statusButton">
+    <button class="btn dropdown-toggle" data-toggle="dropdown">
+        Add/Remove Filters
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a class="addFilter">add</a></li>
+        <li><a>remove</a></li>
+    </ul>
+</div>

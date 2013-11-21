@@ -37,6 +37,10 @@ public class FilterService {
         return false;
     }
 
+    public void addFilter() {
+         this.filterDAO.addFilter();
+    }
+
     public void setFilterDAO(FilterDAOImpl filterDAO){
         this.filterDAO=filterDAO;
     }
@@ -45,4 +49,6 @@ public class FilterService {
         this.activeFilters=newFilters;
 
     }
+
+
 }

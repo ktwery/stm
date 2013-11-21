@@ -3,20 +3,15 @@
     <title>Task Management</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
     <!-- Bootstrap -->
-    <link href="resources/css/colorpicker.css" rel="stylesheet" media="screen">
     <link href="resources/css/bootstrap.min.css" rel="stylesheet" media="screen">
-
+    <link href="resources/css/spectrum.css" rel="stylesheet" media="screen">
     <link href="resources/less/style.less" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <div class="filters page-header">
-    <div class="input-append color" data-color="rgb(255, 146, 180)" data-color-format="rgb">
-        <span class="add-on"><i style="background-color: rgb(255, 146, 180)"></i></span>
-    </div>
-    <label class="checkbox">
-        <input type="checkbox" value="option1" id="inlineCheckbox1"> Filter 1
-    </label>
+    <input type='text' class="basic" />
+    <div class="btn" data-toggle="button"> Filter1</div>
     <button type="button" data-loading-text="Loading..." class="btn btn-primary">
         Add a New Status
     </button>

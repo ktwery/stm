@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface FilterDAO{
     public List<Filter> getAllFilters();
+    public void addFilter();
 
 }

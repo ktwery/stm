@@ -7,19 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe394b49-50fd-4522-9768-f3d08794a6d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stm-web/src/main/java/com/stm/mpa/web/controller/TaskController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/TaskTemplate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/view/TasksView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/less/less.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/main.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/css/style.less" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/less/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/collection/FilterCollection.js" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/collection/FilterCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/bootstrap/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/css/spectrum.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/spectrum/spectrum.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/css/colorpicker.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-web/src/main/java/com/stm/mpa/web/controller/FilterController.java" afterPath="$PROJECT_DIR$/stm-web/src/main/java/com/stm/mpa/web/controller/FilterController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/FilterDAO.java" afterPath="$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/FilterDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/impl/FilterDAOImpl.java" afterPath="$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/impl/FilterDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/FilterService.java" afterPath="$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/FilterService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/collection/TaskCollection.js" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/collection/TaskCollection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/TaskService.java" afterPath="$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/TaskService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-service/src/main/resources/springConfig/commonServices.xml" afterPath="$PROJECT_DIR$/stm-service/src/main/resources/springConfig/commonServices.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-data/src/main/resources/springConfig/data.xml" afterPath="$PROJECT_DIR$/stm-data/src/main/resources/springConfig/data.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/FilterTemplate.html" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/FilterTemplate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/view/FiltersView.js" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/view/FiltersView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/TaskTemplate.html" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/TaskTemplate.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/pages/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/requireConfig.js" afterPath="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/requireConfig.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stm-app.iws" afterPath="$PROJECT_DIR$/stm-app.iws" />
@@ -29,40 +27,40 @@
     <file path="/Dummy.txt" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384971131207" ignored="false" />
     <file path="/Filter.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1382471452030" ignored="false" />
     <file path="/fragment.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384967477627" ignored="false" />
-    <file path="/FilterDAO.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1382541763531" ignored="false" />
-    <file path="/FilterDAOImpl.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384902226096" ignored="false" />
-    <file path="/FilterService.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384976821980" ignored="false" />
+    <file path="/FilterDAO.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385059906678" ignored="false" />
+    <file path="/FilterDAOImpl.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385062302918" ignored="false" />
+    <file path="/FilterService.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385060883336" ignored="false" />
     <file path="/FilterService.groovy" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1382556456234" ignored="false" />
     <file path="/TestFilterService.groovy" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1382557614235" ignored="false" />
     <file path="/data.xml" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384900407267" ignored="false" />
     <file path="/FilterRowMapper.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1382562726136" ignored="false" />
-    <file path="/a.dummy" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384900453008" ignored="false" />
+    <file path="/a.dummy" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385067989348" ignored="false" />
     <file path="/FilterServiceTest.groovy" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384967362383" ignored="false" />
     <file path="/application-context.xml.tld" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1382564883799" ignored="false" />
     <file path="/FilterServiceTest.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384960364556" ignored="false" />
     <file path="/application-context.xml" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383068051665" ignored="false" />
     <file path="/build.gradle" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383071034962" ignored="false" />
-    <file path="/FilterController.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383155874536" ignored="false" />
+    <file path="/FilterController.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385060896713" ignored="false" />
     <file path="/home.jsp" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1382732206993" ignored="false" />
-    <file path="/index.jsp" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384982479182" ignored="false" />
+    <file path="/index.jsp" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385049789018" ignored="false" />
     <file path="$PROJECT_DIR$/untitled/web/WEB-INF/web.xml" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1382969290911" ignored="false" />
     <file path="/Filters.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383169911116" ignored="false" />
     <file path="/component.json" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1382974757709" ignored="false" />
     <file path="/Require.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1382977640258" ignored="false" />
-    <file path="/requireConfig.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384982905613" ignored="false" />
+    <file path="/requireConfig.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385059059482" ignored="false" />
     <file path="/main.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384803098430" ignored="false" />
     <file path="/web.xml" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383080155675" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383150917300" ignored="false" />
     <file path="/main.xml" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383145211527" ignored="false" />
     <file path="/datasource.properties" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383141925675" ignored="false" />
     <file path="$USER_HOME$/Desktop/mpa/mpa-app/build.gradle" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383150174477" ignored="false" />
-    <file path="/FilterTemplate.html" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384898303580" ignored="false" />
+    <file path="/FilterTemplate.html" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385053780318" ignored="false" />
     <file path="$USER_HOME$/Desktop/mpa/mpa-app/mpa-web/src/main/webapp/resources/js/shared/eob/eobChoices.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383169746358" ignored="false" />
     <file path="/ClaimListMain.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383170100250" ignored="false" />
     <file path="$USER_HOME$/Desktop/mpa/mpa-app/mpa-web/src/main/webapp/resources/js/view/claim/list/ClaimListMain.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383170101439" ignored="false" />
     <file path="/FilterModel.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384893343624" ignored="false" />
     <file path="/FilterCollection.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384971436912" ignored="false" />
-    <file path="/FiltersView.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384895953835" ignored="false" />
+    <file path="/FiltersView.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385068658132" ignored="false" />
     <file path="/DummyFile.xpath" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383244617922" ignored="false" />
     <file path="$USER_HOME$/Desktop/mpa/mpa-app/mpa-web/src/main/webapp/WEB-INF/tags/layout.tag" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383247352900" ignored="false" />
     <file path="$USER_HOME$/Desktop/mpa/mpa-app/mpa-web/src/main/webapp/resources/js/view/compliance/ComplianceMain.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1383330366656" ignored="false" />
@@ -81,7 +79,9 @@
     <file path="/TaskController.java" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384972692090" ignored="false" />
     <file path="/TaskCollection.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384971422980" ignored="false" />
     <file path="/TasksView.js" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384977171849" ignored="false" />
-    <file path="/TaskTemplate.html" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1384984801733" ignored="false" />
+    <file path="/TaskTemplate.html" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385052613006" ignored="false" />
+    <file path="/spectrum.css" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385053486708" ignored="false" />
+    <file path="/Dummy.regexp" changelist="fe394b49-50fd-4522-9768-f3d08794a6d5" time="1385061011987" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,9 +95,14 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/pages/index.jsp" line="41" class="index.jsp" package="$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/pages">
+      <breakpoint url="file://$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/pages/index.jsp" line="36" class="index.jsp" package="$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/pages">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -113,21 +118,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/stm-service/src/test/groovy/TaskServiceTest.groovy" line="28" class="test.groovy.TaskServiceTest" package="test.groovy">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/impl/FilterDAOImpl.java" line="21" class="com.stm.dao.impl.FilterDAOImpl" package="com.stm.dao.impl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -188,76 +178,42 @@
     <favorites_list name="stm-app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.51897186">
       <split-first>
         <leaf>
-          <file leaf-file-name="FilterService.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/FilterService.java">
+          <file leaf-file-name="requireConfig.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/requireConfig.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="14" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+                <state line="42" column="115" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TaskService.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/TaskService.java">
+          <file leaf-file-name="FilterRowMapper.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/rowMapper/FilterRowMapper.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="29" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TaskController.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-web/src/main/java/com/stm/mpa/web/controller/TaskController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="18" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+                <state line="8" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="imports" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TaskTemplate.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/TaskTemplate.html">
+          <file leaf-file-name="FilterCollection.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/collection/FilterCollection.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="0" selection-start="199" selection-end="247" vertical-scroll-proportion="-4.375">
-                  <folding />
+                <state line="5" column="25" selection-start="258" selection-end="258" vertical-scroll-proportion="0.16666667">
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/less/style.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="-0.8150685">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TasksView.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/view/TasksView.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="54" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TaskCollection.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/collection/TaskCollection.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="25" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TaskModel.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/model/TaskModel.js">
+          <file leaf-file-name="FilterModel.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/model/FilterModel.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
@@ -265,10 +221,33 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="data.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-data/src/main/resources/springConfig/data.xml">
+          <file leaf-file-name="FilterService.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/FilterService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="4" selection-start="520" selection-end="520" vertical-scroll-proportion="-5.4">
+                <state line="39" column="15" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FilterDAOImpl.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/impl/FilterDAOImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="29" column="58" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <marker date="1385062557000" expanded="true" signature="914:943" placeholder="INSERT INTO ..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FilterDAO.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/FilterDAO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="0" selection-start="77" selection-end="129" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -277,8 +256,30 @@
           <file leaf-file-name="FilterController.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stm-web/src/main/java/com/stm/mpa/web/controller/FilterController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="61" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
+                <state line="31" column="22" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FilterTemplate.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/FilterTemplate.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="30" selection-start="607" selection-end="607" vertical-scroll-proportion="-10.0">
+                  <folding>
+                    <marker date="1385053782000" expanded="true" signature="434:700" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="spectrum.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/css/spectrum.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="333" column="25" selection-start="8367" selection-end="8367" vertical-scroll-proportion="-8.269231">
+                  <folding>
+                    <element signature="e#11261#11400#2" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -287,39 +288,28 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="requireConfig.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/requireConfig.js">
+          <file leaf-file-name="FiltersView.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/view/FiltersView.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="5" selection-start="819" selection-end="819" vertical-scroll-proportion="0.84598696">
+                <state line="46" column="34" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.67391306">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/pages/index.jsp">
+          <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/springConfig/mvc-dispatcher-servlet.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="7" selection-start="396" selection-end="396" vertical-scroll-proportion="-5.0416665">
+                <state line="9" column="74" selection-start="714" selection-end="714" vertical-scroll-proportion="-5.4">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="less.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/less/less.js">
+          <file leaf-file-name="data.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stm-data/src/main/resources/springConfig/data.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="31095" selection-start="95305" selection-end="95305" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FilterTemplate.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/FilterTemplate.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="9" selection-start="629" selection-end="629" vertical-scroll-proportion="-9.375">
+                <state line="17" column="30" selection-start="950" selection-end="950" vertical-scroll-proportion="-7.0">
                   <folding />
                 </state>
               </provider>
@@ -350,22 +340,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/stm-service/src/test/groovy/FilterServiceTest.groovy" />
-        <option value="$PROJECT_DIR$/stm-service/src/test/groovy/TaskServiceTest.groovy" />
-        <option value="$PROJECT_DIR$/stm-web/src/main/java/com/stm/mpa/web/controller/FilterController.java" />
-        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/collection/TaskCollection.js" />
-        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/collection/FilterCollection.js" />
-        <option value="$PROJECT_DIR$/stm-web/src/main/java/com/stm/mpa/web/controller/TaskController.java" />
         <option value="$PROJECT_DIR$/stm-data/src/main/resources/springConfig/data.xml" />
         <option value="$PROJECT_DIR$/stm-service/src/main/resources/springConfig/commonServices.xml" />
-        <option value="$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/FilterService.java" />
         <option value="$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/TaskService.java" />
         <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/view/TasksView.js" />
         <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/less/less.js" />
-        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/pages/index.jsp" />
-        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/requireConfig.js" />
-        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/TaskTemplate.html" />
         <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/less/style.less" />
+        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/TaskTemplate.html" />
+        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/css/spectrum.css" />
+        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/FilterTemplate.html" />
+        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/requireConfig.js" />
+        <option value="$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/FilterDAO.java" />
+        <option value="$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/FilterService.java" />
+        <option value="$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/impl/FilterDAOImpl.java" />
+        <option value="$PROJECT_DIR$/stm-web/src/main/java/com/stm/mpa/web/controller/FilterController.java" />
+        <option value="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/view/FiltersView.js" />
       </list>
     </option>
   </component>
@@ -524,74 +514,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tags" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -664,7 +586,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -702,11 +624,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
+              <option name="myItemId" value="collection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -749,276 +667,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springConfig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springConfig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm-data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1074,11 +722,11 @@
       <recent name="main.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/resources/css" />
       <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/mustache" />
       <recent name="$PROJECT_DIR$/stm-controller/src" />
       <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib" />
       <recent name="$PROJECT_DIR$/stm-web/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/resources/css" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.stm.dao.impl" />
@@ -1088,11 +736,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/bootstrap" />
+      <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/spectrum" />
       <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/resources/less" />
       <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/require" />
       <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/mustache" />
-      <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib" />
-      <recent name="$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/scripts" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
@@ -1316,6 +964,12 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
       <deployment />
       <server-settings />
@@ -1533,15 +1187,16 @@
     <frame x="30" y="22" width="1841" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="130" y="122" width="1641" height="678" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39313984" sideWeight="0.49936062" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48021108" sideWeight="0.49903536" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980502" sideWeight="0.6609499" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28364116" sideWeight="0.7171315" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35181236" sideWeight="0.15487465" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33905014" sideWeight="0.15487465" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1552,9 +1207,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924925" sideWeight="0.8205805" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.58810574" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21114206" sideWeight="0.6451187" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35488126" sideWeight="0.84456825" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21114206" sideWeight="0.6609499" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33905014" sideWeight="0.84456825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1627,8 +1282,13 @@
           <line>23</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/requireConfig.js</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1636,88 +1296,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/springConfig/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stm-service/src/main/resources/springConfig/commonServices.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stm-data/src/main/resources/springConfig/data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="520" selection-end="520" vertical-scroll-proportion="-5.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stm-web/src/main/java/com/stm/mpa/web/controller/FilterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="61" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/FilterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/TaskService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/model/TaskModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/collection/TaskCollection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="25" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/view/TasksView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="54" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/FilterTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="629" selection-end="629" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/lib/less/less.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31095" selection-start="95305" selection-end="95305" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="396" selection-end="396" vertical-scroll-proportion="-5.0416665">
           <folding />
         </state>
       </provider>
@@ -1731,23 +1312,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/TaskTemplate.html">
+    <entry file="file://$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/rowMapper/FilterRowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="199" selection-end="247" vertical-scroll-proportion="-4.375">
+        <state line="8" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="30" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/html/template/FilterTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="607" selection-end="607" vertical-scroll-proportion="-10.0">
+          <folding>
+            <marker date="1385053782000" expanded="true" signature="434:700" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/requireConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="819" selection-end="819" vertical-scroll-proportion="0.84598696">
+        <state line="42" column="115" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/less/style.less">
+    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/css/spectrum.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="-0.8150685">
+        <state line="333" column="25" selection-start="8367" selection-end="8367" vertical-scroll-proportion="-8.269231">
+          <folding>
+            <element signature="e#11261#11400#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-service/src/main/java/com/stm/services/FilterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="15" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/FilterDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="77" selection-end="129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-data/src/main/java/com/stm/dao/impl/FilterDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="58" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1385062557000" expanded="true" signature="914:943" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-web/src/main/java/com/stm/mpa/web/controller/FilterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="22" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/springConfig/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="74" selection-start="714" selection-end="714" vertical-scroll-proportion="-5.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-data/src/main/resources/springConfig/data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="950" selection-end="950" vertical-scroll-proportion="-7.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/model/FilterModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/collection/FilterCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="258" selection-end="258" vertical-scroll-proportion="0.16666667">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stm-web/src/main/webapp/resources/js/view/FiltersView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="34" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.67391306">
           <folding />
         </state>
       </provider>
